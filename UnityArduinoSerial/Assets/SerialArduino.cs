@@ -10,8 +10,8 @@ public class SerialArduino : MonoBehaviour
 {
     public static SerialArduino Instance { get; private set; }
 
-    // Use COM3 for the port
-    public static SerialPort serialPort = new SerialPort("\\\\.\\COM7", 9600, Parity.None, 8, StopBits.One);
+    // Use COM5 for the port
+    public static SerialPort serialPort = new SerialPort("\\\\.\\COM5", 9600, Parity.None, 8, StopBits.One);
     
     private void Awake()
     {
